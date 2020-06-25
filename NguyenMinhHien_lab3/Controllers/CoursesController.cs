@@ -14,7 +14,7 @@ namespace NguyenMinhHien_lab3.Controllers
         private readonly ApplicationDbContext _dbConext;
         public CoursesController()
         {
-            _dbConext = new ApplicationDbContext();
+            _dbConext = new ApplicationDbContext();  
         }
         // GET: Courses
         [Authorize]
