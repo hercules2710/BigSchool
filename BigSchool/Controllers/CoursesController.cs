@@ -48,7 +48,7 @@ namespace BigSchool.Controllers
             _dbContext.Courses.Add(course);
             _dbContext.SaveChanges();
 
-            return RedirectToAction("Mine", "Course");
+            return RedirectToAction("Mine", "Courses");
         }
 
         [Authorize]
